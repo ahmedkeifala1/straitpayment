@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Technology Consulting",
+    "url": "#",
+    "icon": "cpu",
+    "slug": "technology-consulting",
+    "description": "We help identify the right blend of technology solutions, architecture and platforms to support your business vision."
+  },
+  {
+    "name": " Payment Solutions",
+    "url": "#",
+    "slug": "payment-solutions",
+    "icon": "credit-card",
+    "description": "From traditional to latest payment methods, we help you navigate the complexities of payment system integration."
+  },
+  {
+    "name": "People & Training",
+    "url": "#",
+    "icon": "users",
+    "slug": "people-and-training",
+    "description": "We offer the latest industry trainings around payments and can customize training requirements to your needs."
+  }
+]
