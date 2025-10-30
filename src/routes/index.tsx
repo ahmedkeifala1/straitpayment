@@ -31,7 +31,7 @@ function Index() {
           </div>
           <div className="md:w-1/2" data-aos="fade-left">
             <img
-              src="http://static.photos/finance/1200x630/42"
+              src="/hero.png"
               alt="Financial Technology"
               className="rounded-lg shadow-xl"
             />
