@@ -4,8 +4,8 @@ import services from "../assets/data/services.json";
 
 export default function Footer() {
   return (
-    <>
-      <section className="py-20 bg-blue-800 text-white">
+    <footer className="mt-auto hero-gradient text-white">
+      <section className="py-20">
         <div className="container mx-auto px-6 text-center">
           <h2
             className="text-3xl md:text-4xl font-bold mb-6"
@@ -23,7 +23,7 @@ export default function Footer() {
           </p>
           <Link
             to="/contact"
-            className="bg-white text-blue-800 font-bold py-3 px-8 rounded-full hover:bg-gray-100 transition duration-300 inline-block"
+            className="bg-black text-white-800 font-bold py-3 px-8 rounded-full hover:bg-gray-100 transition duration-300 inline-block"
             data-aos="fade-up"
             data-aos-delay="200"
           >
@@ -31,7 +31,7 @@ export default function Footer() {
           </Link>
         </div>
       </section>
-      <footer className="bg-gray-900 text-white py-12 mt-auto">
+      <section className="py-12">
         <div className="container mx-auto px-6 space-y-8">
           <div className="grid md:grid-cols-4 gap-12 text-sm">
             <div className="space-y-4">
@@ -100,7 +100,7 @@ export default function Footer() {
             </p>
           </div>
         </div>
-      </footer>
-    </>
+      </section>
+    </footer>
   );
 }
