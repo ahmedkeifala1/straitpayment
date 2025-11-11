@@ -54,11 +54,11 @@ function About() {
               </p>
 
               <div
-                className="bg-blue-50 p-6 rounded-lg border-l-4 border-blue-600"
+                className="bg-black-50 p-6 rounded-lg border-l-4 border-gray-900-600"
                 data-aos="fade-up"
                 data-aos-delay="100"
               >
-                <p className="text-blue-800 font-medium">
+                <p className="text-black font-medium">
                   At Strait Payments Advisory, we are problem-solvers who never
                   accept that something cannot be done. We think beyond IT and
                   technology, applying creative approaches to stubborn
@@ -85,8 +85,8 @@ function About() {
                   data-aos-delay="100"
                 >
                   <div className="flex items-center mb-4">
-                    <div className="bg-blue-100 p-2 rounded-full mr-4">
-                      <Icon name="users" size={17} className="text-blue-600" />
+                    <div className="bg-gray-100 p-2 rounded-full mr-4">
+                      <Icon name="users" size={17} className="text-gray-900" />
                     </div>
                     <h3 className="text-lg font-semibold text-gray-800">
                       Diverse Background
@@ -105,8 +105,8 @@ function About() {
                   data-aos-delay="200"
                 >
                   <div className="flex items-center mb-4">
-                    <div className="bg-blue-100 p-2 rounded-full mr-4">
-                      <Icon name="target" size={17} className="text-blue-600" />
+                    <div className="bg-gray-100 p-2 rounded-full mr-4">
+                      <Icon name="target" size={17} className="text-gray-900" />
                     </div>
                     <h3 className="text-lg font-semibold text-gray-800">
                       Focused Team

@@ -23,7 +23,7 @@ export default function Footer() {
           </p>
           <Link
             to="/contact"
-            className="bg-black text-white-800 font-bold py-3 px-8 rounded-full hover:bg-gray-100 transition duration-300 inline-block"
+            className="bg-white text-black font-bold py-3 px-8 rounded-full hover:bg-gray-100 transition duration-300 inline-block"
             data-aos="fade-up"
             data-aos-delay="200"
           >
@@ -31,7 +31,7 @@ export default function Footer() {
           </Link>
         </div>
       </section>
-      <section className="py-12">
+      <section className="py-12 border-t border-gray-800">
         <div className="container mx-auto px-6 space-y-8">
           <div className="grid md:grid-cols-4 gap-12 text-sm">
             <div className="space-y-4">

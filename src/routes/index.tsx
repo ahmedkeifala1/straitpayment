@@ -24,7 +24,7 @@ function Index() {
             </p>
             <Link
               to="/contact"
-              className="bg-white text-blue-800 font-bold py-3 px-8 rounded-full hover:bg-gray-100 transition duration-300 inline-block"
+              className="bg-white text-black font-bold py-3 px-8 rounded-full hover:bg-gray-100 transition duration-300 inline-block"
             >
               Get in Touch
             </Link>
@@ -45,7 +45,7 @@ function Index() {
             <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">
               About Strait Payments Advisory
             </h2>
-            <div className="w-20 h-1 bg-blue-600 mx-auto mb-6"></div>
+            <div className="w-20 h-1 bg-gray-600 mx-auto mb-6"></div>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
               We help financial institutions navigate the challenges and
               opportunities of new technologies in rapidly changing
@@ -58,8 +58,8 @@ function Index() {
               data-aos="fade-right"
             >
               <div className="flex items-center mb-6">
-                <div className="bg-blue-100 p-3 rounded-full mr-4">
-                  <Icon name="target" size={17} className="text-blue-600" />
+                <div className="bg-gray-100 p-3 rounded-full mr-4">
+                  <Icon name="target" size={17} className="text-gray-900" />
                 </div>
                 <h3 className="text-xl font-bold text-gray-800">Our Mission</h3>
               </div>
@@ -74,8 +74,8 @@ function Index() {
               data-aos="fade-left"
             >
               <div className="flex items-center mb-6">
-                <div className="bg-blue-100 p-3 rounded-full mr-4">
-                  <Icon name="eye" size={17} className="text-blue-600" />
+                <div className="bg-gray-100 p-3 rounded-full mr-4">
+                  <Icon name="eye" size={17} className="text-gray-900" />
                 </div>
                 <h3 className="text-xl font-bold text-gray-800">Our Vision</h3>
               </div>
@@ -89,7 +89,7 @@ function Index() {
           <div className="text-center mt-12">
             <Link
               to="/about"
-              className="text-blue-600 font-semibold hover:text-blue-800 transition duration-300 inline-flex items-center"
+              className="text-gray-900 font-semibold hover:text-black transition duration-300 inline-flex items-center"
             >
               Learn more about us <Icon name="arrow-right" className="ml-2" />
             </Link>
@@ -103,7 +103,7 @@ function Index() {
             <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">
               Our Services
             </h2>
-            <div className="w-20 h-1 bg-blue-600 mx-auto mb-6"></div>
+            <div className="w-20 h-1 bg-gray-600 mx-auto mb-6"></div>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
               Comprehensive solutions tailored to your financial technology
               needs.
@@ -117,11 +117,11 @@ function Index() {
                 data-aos="fade-up"
                 data-aos-delay={(idx + 1) * 100}
               >
-                <div className="bg-blue-100 p-4 rounded-full w-16 h-16 flex items-center justify-center mb-6">
+                <div className="bg-gray-100 p-4 rounded-full w-16 h-16 flex items-center justify-center mb-6">
                   <Icon
                     size={24}
                     name={service.icon as IconName}
-                    className="text-blue-600 text-2xl"
+                    className="text-gray-900 text-2xl"
                   />
                 </div>
                 <h3 className="text-xl font-bold text-gray-800 mb-4">
@@ -131,7 +131,7 @@ function Index() {
                 <Link
                   to={`/services`}
                   hash={service.slug}
-                  className="text-blue-600 font-semibold hover:text-blue-800 transition duration-300 inline-flex items-center"
+                  className="text-gray-900 font-semibold hover:text-black transition duration-300 inline-flex items-center"
                 >
                   Learn more <Icon name="arrow-right" className="ml-2" />
                 </Link>
@@ -147,7 +147,7 @@ function Index() {
             <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">
               Meet Our Leadership
             </h2>
-            <div className="w-20 h-1 bg-blue-600 mx-auto mb-6"></div>
+            <div className="w-20 h-1 bg-gray-600 mx-auto mb-6"></div>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
               Experts in business, project management and financial technology.
             </p>
@@ -168,13 +168,13 @@ function Index() {
                 <h3 className="text-xl font-bold text-gray-800 mb-2">
                   {member.name}
                 </h3>
-                <p className="text-blue-600 font-medium mb-4">
+                <p className="text-gray-900 font-medium mb-4">
                   {member.position}
                 </p>
                 <Link
                   to="/team"
                   hash={member.slug}
-                  className="text-sm text-gray-600 hover:text-blue-600 transition duration-300 inline-flex items-center"
+                  className="text-sm text-gray-600 hover:text-gray-900 transition duration-300 inline-flex items-center"
                 >
                   View profile <Icon name="arrow-right" className="ml-1" />
                 </Link>
@@ -184,7 +184,7 @@ function Index() {
           <div className="text-center mt-12">
             <Link
               to="/team"
-              className="bg-blue-600 text-white font-bold py-3 px-8 rounded-full hover:bg-blue-700 transition duration-300 inline-block"
+              className="bg-black text-white font-bold py-3 px-8 rounded-full hover:bg-black-700 transition duration-300 inline-block"
             >
               Meet the Full Team
             </Link>

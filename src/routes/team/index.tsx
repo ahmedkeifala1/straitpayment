@@ -89,22 +89,22 @@ function Teams() {
                     Key Highlights:
                   </h4>
                   <div className="flex flex-wrap gap-2">
-                    <span className="bg-black-100 text-white-800 text-xs font-medium px-2.5 py-0.5 rounded">
+                    <span className="bg-gray-100 text-white-800 text-xs font-medium px-2.5 py-0.5 rounded">
                       National Payment Systems
                     </span>
-                    <span className="bg-black-100 text-white-800 text-xs font-medium px-2.5 py-0.5 rounded">
+                    <span className="bg-gray-100 text-white-800 text-xs font-medium px-2.5 py-0.5 rounded">
                       Card Payment Solutions
                     </span>
-                    <span className="bg-black-100 text-white-800 text-xs font-medium px-2.5 py-0.5 rounded">
+                    <span className="bg-gray-100 text-white-800 text-xs font-medium px-2.5 py-0.5 rounded">
                       Currency Rebasing
                     </span>
-                    <span className="bg-black-100 text-white-800 text-xs font-medium px-2.5 py-0.5 rounded">
+                    <span className="bg-gray-100 text-white-800 text-xs font-medium px-2.5 py-0.5 rounded">
                       Claims Process Transformation
                     </span>
-                    <span className="bg-black-100 text-white-800 text-xs font-medium px-2.5 py-0.5 rounded">
+                    <span className="bg-gray-100 text-white-800 text-xs font-medium px-2.5 py-0.5 rounded">
                       Banking Models
                     </span>
-                    <span className="bg-black-100 text-white-800 text-xs font-medium px-2.5 py-0.5 rounded">
+                    <span className="bg-gray-100 text-white-800 text-xs font-medium px-2.5 py-0.5 rounded">
                       System Transformation
                     </span>
                   </div>
