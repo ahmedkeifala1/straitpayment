@@ -37,7 +37,7 @@ function Services() {
 
               <div className="grid md:grid-cols-2 gap-8">
                 <div className="service-card bg-white p-8 rounded-xl shadow-md transition duration-300">
-                  <div className="bg-black-100 p-4 rounded-full w-16 h-16 flex items-center justify-center mb-6">
+                  <div className="bg-gray-100 p-4 rounded-full w-16 h-16 flex items-center justify-center mb-6">
                     <Icon name="cpu" size={24} className="text-black-600" />
                   </div>
                   <h3 className="text-xl font-bold text-black-800 mb-4">
@@ -54,7 +54,7 @@ function Services() {
                   </p>
                 </div>
                 <div className="service-card bg-white p-8 rounded-xl shadow-md transition duration-300">
-                  <div className="bg-black-100 p-4 rounded-full w-16 h-16 flex items-center justify-center mb-6">
+                  <div className="bg-gray-100 p-4 rounded-full w-16 h-16 flex items-center justify-center mb-6">
                     <Icon name="code" size={24} className="text-white-600" />
                   </div>
                   <h3 className="text-xl font-bold text-black-800 mb-4">
@@ -99,7 +99,7 @@ function Services() {
                     "All channels",
                   ].map((value, idx) => (
                     <div key={`core_${idx}`} className="flex items-start">
-                      <div className="bg-black-100 p-1 rounded-full mr-3 mt-1">
+                      <div className="bg-gray-100 p-1 rounded-full mr-3 mt-1">
                         <Icon
                           name="check-check"
                           size={16}
@@ -131,11 +131,11 @@ function Services() {
                     "Improve operational productivity",
                   ].map((value, idx) => (
                     <div key={`values_${idx}`} className="flex items-start">
-                      <div className="bg-blue-100 p-1 rounded-full mr-3 mt-1">
+                      <div className="bg-gray-100 p-1 rounded-full mr-3 mt-1">
                         <Icon
                           name="check-circle"
                           size={16}
-                          className="text-blue-600"
+                          className="text-gray-900"
                         />
                       </div>
                       <p className="text-gray-600">{value}</p>

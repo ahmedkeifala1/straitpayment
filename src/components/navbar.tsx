@@ -30,7 +30,7 @@ export default function Navbar() {
                 activeOptions={{ exact: route.url === "/" }}
                 className="text-gray-600 text-sm hover:text-primary font-medium"
                 activeProps={{
-                  className: "!text-primary border-b-2 border-blue-800",
+                  className: "!text-primary border-b-2 border-gray-900-800",
                 }}
               >
                 {route.title}
