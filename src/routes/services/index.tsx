@@ -162,13 +162,7 @@ function Services() {
 
               <div className="bg-white p-8 rounded-xl shadow-md">
                 <div className="flex flex-col md:flex-row items-center">
-                  <div className="md:w-1/3 mb-6 md:mb-0">
-                    <img
-                      src="http://static.photos/education/600x400/1"
-                      alt="Training"
-                      className="rounded-lg"
-                    />
-                  </div>
+                  <div className="md:w-1/3 mb-6 md:mb-0"></div>
                   <div className="md:w-2/3 md:pl-8">
                     <h3 className="text-xl font-bold text-black-800 mb-4">
                       Industry-Leading Training

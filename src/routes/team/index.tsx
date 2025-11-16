@@ -43,13 +43,7 @@ function Teams() {
             data-aos="fade-up"
           >
             <div className="md:flex">
-              <div className="md:w-1/3">
-                <img
-                  src="http://static.photos/people/600x600/1"
-                  alt="Stephen Mutusva"
-                  className="w-full h-full object-cover"
-                />
-              </div>
+              <div className="md:w-1/3"></div>
               <div className="p-8 md:w-2/3">
                 <div className="uppercase tracking-wide text-sm text-black-600 font-semibold mb-1">
                   Chief Executive and Co-Founder
@@ -73,7 +67,7 @@ function Teams() {
                   </h4>
                   <ul className="list-disc pl-5 text-black-600 space-y-2">
                     <li>
-                      Analysing situations and turning information into
+                      Analyzing situations and turning information into
                       strategy.
                     </li>
                     <li>
@@ -119,13 +113,7 @@ function Teams() {
             data-aos="fade-up"
           >
             <div className="md:flex">
-              <div className="md:w-1/3">
-                <img
-                  src="http://static.photos/people/600x600/2"
-                  alt="Tendai Nyamarebvu"
-                  className="w-full h-full object-cover"
-                />
-              </div>
+              <div className="md:w-1/3"></div>
               <div className="p-8 md:w-2/3">
                 <div className="uppercase tracking-wide text-sm text-black-600 font-semibold mb-1">
                   Finance Director
@@ -134,11 +122,25 @@ function Teams() {
                   Tendai Nyamarebvu
                 </h3>
                 <p className="text-black-600 mb-6">
-                  Tendai is a Associate Chartered Management Accountant having
-                  completed his studies in 2017 through the Chartered Institute
-                  of Management Accountants (CIMA). He is a graduate from Solusi
-                  University in Zimbabwe where he acquired a Bachelor of
-                  Business Administration in Accounting degree in 2004.
+                  Tendai Nyamarebvu is a Chartered Global Management Accountant
+                  (CGMA) and digital finance leader with over 15 years of
+                  experience driving financial strategy and business
+                  transformation. He holds a Postgraduate Diploma in Management
+                  Information Systems from the University of Cape Town,
+                  complementing his accounting expertise with deep technical
+                  insight into the systems that power modern finance. Before
+                  joining Strait Payments Advisory, Tendai played a pivotal role
+                  in leading the finance workstream for a major SAP S/4HANA
+                  implementation at a large multinational, where he specialized
+                  in post-go-live stabilization, process optimization, and
+                  enabling seamless digital adoption. His career spans dynamic
+                  sectors including financial services, biotechnology, and
+                  retail, giving him a unique perspective on the financial
+                  technology landscape. At Strait Payments Advisory, Tendai
+                  leverages his expertise in financial systems, data analytics,
+                  and strategic planning to oversee the company's financial
+                  operations and support its mission of delivering innovative
+                  and accessible cross-border payment solutions.
                 </p>
                 <p className="text-black-600">
                   He moved to South Africa in 2006 and worked for a financial
@@ -157,13 +159,7 @@ function Teams() {
             data-aos="fade-up"
           >
             <div className="md:flex">
-              <div className="md:w-1/3">
-                <img
-                  src="http://static.photos/people/600x600/3"
-                  alt="Shephard Matsika"
-                  className="w-full h-full object-cover"
-                />
-              </div>
+              <div className="md:w-1/3"></div>
               <div className="p-8 md:w-2/3">
                 <div className="uppercase tracking-wide text-sm text-black-600 font-semibold mb-1">
                   Legal Secretary
@@ -191,13 +187,7 @@ function Teams() {
             data-aos="fade-up"
           >
             <div className="md:flex">
-              <div className="md:w-1/3">
-                <img
-                  src="http://static.photos/people/600x600/4"
-                  alt="Trust Munyuki"
-                  className="w-full h-full object-cover"
-                />
-              </div>
+              <div className="md:w-1/3"></div>
               <div className="p-8 md:w-2/3">
                 <div className="uppercase tracking-wide text-sm text-black-600 font-semibold mb-1">
                   Delivery Executive
