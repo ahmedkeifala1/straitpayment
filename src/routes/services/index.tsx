@@ -11,7 +11,7 @@ function Services() {
     <>
       <Hero
         title="Our Services"
-        subtitle="Comprehensive financial technology solutions tailored to your business needs."
+        subtitle="Strait Payments Advisory provides an integrated suite of consulting, technology, and delivery services designed to help financial institutions build secure, efficient, and future-ready digital payment ecosystems. Our expertise spans the full lifecycle of digital transformation, from strategy and design to implementation, optimization, and capacity building."
       />
 
       <section className="py-20">

@@ -22,17 +22,53 @@ function About() {
                 Our Story
               </h2>
               <p className="text-gray-600 mb-4">
-                Established in 2016, Strait Payments Advisory has its
-                headquarters in the United Kingdom (33 Torridge Road Thornton
-                Heath, Surrey CR7 7EZ), and COE in South Africa (Menlyn Maine,
-                Pretoria).
+                Founded in 2016, Strait Payments Advisory is a United
+                Kingdom–based professional services and technology consulting
+                firm, with its headquarters in London and a Centre of Excellence
+                located in Menlyn Maine, Pretoria, South Africa. From these
+                strategic hubs, we support financial institutions and fintech
+                players across emerging markets.
               </p>
               <p className="text-gray-600">
-                We are an integrated professional services firm that provides
-                business & IT consulting and Contract Resourcing focused on
-                Financial Technology solutions to clients across emerging
-                markets. Our clients are organizations within the financial
-                services industry.
+                Strait Payments Advisory was established with a clear mission:
+                to bridge the gap between business strategy, technology
+                innovation, and financial inclusion. We provide integrated
+                business and IT consulting services, supported by specialised
+                contract resourcing, to help organisations design, build, and
+                scale modern Financial Technology solutions.
+              </p>
+              <p className="text-gray-600">
+                Our clients span the broader financial services ecosystem
+                including banks, payment service providers, mobile money
+                operators, regulators, and fintech innovators who rely on our
+                expertise to navigate complex digital transformations and
+                deliver secure, interoperable, and future-ready payment systems.
+              </p>
+            </div>
+
+            <div className="mb-16" data-aos="fade-up">
+              <h2 className="text-3xl font-bold text-gray-800 mb-6">
+                Our Mission
+              </h2>
+              <p className="text-gray-600 mb-4">
+                To empower financial institutions across emerging markets
+                through innovative, scalable, and cost-effective financial
+                technology services; delivering expert consulting, strategic
+                project management, and modern digital solutions that meet
+                evolving customer expectations and drive sustainable growth.
+              </p>
+            </div>
+
+            <div className="mb-16" data-aos="fade-up">
+              <h2 className="text-3xl font-bold text-gray-800 mb-6">
+                Our Vision
+              </h2>
+              <p className="text-gray-600 mb-4">
+                To redefine financial technology consulting in emerging markets
+                by delivering responsive, flexible, and agile services that
+                address the evolving challenges faced by financial institutions
+                enabling them to innovate confidently, operate efficiently, and
+                expand financial access for all.
               </p>
             </div>
 
@@ -41,16 +77,27 @@ function About() {
                 Our Approach
               </h2>
               <p className="text-gray-600 mb-4">
-                Founded on our expertise in consulting, research and
-                contracting; we use this flexible approach to solve clients'
-                problems by providing innovative, fast, and cost-effective
-                solutions, backed by teams with real expertise and proven
-                experience.
+                Our work is grounded in deep expertise across consulting,
+                research, and specialised contracting. We leverage this
+                flexible, multidisciplinary foundation to solve complex
+                challenges and deliver innovative, fast, and cost-effective
+                solutions, supported by teams with proven experience in digital
+                payments, regulation, and technology transformation.
               </p>
               <p className="text-gray-600 mb-6">
-                We boldly challenge the status quo, and as architects of
-                transformation, we help businesses reimagine change as an
-                opportunity for growth.
+                We challenge the status quo with intention and courage. As
+                architects of transformation, we help organisations reimagine
+                change as a catalyst for growth, guiding them to build systems
+                and strategies that are resilient, scalable, and future-ready.
+              </p>
+              <p className="text-gray-600 mb-6">
+                At Strait Payments Advisory, we do not accept limitations. We
+                approach every engagement with a problem-solver’s mindset,
+                looking beyond technology to uncover root causes, identify new
+                possibilities, and deliver practical solutions to the most
+                stubborn challenges. Our strength lies in combining creativity,
+                analytical rigour, and real-world delivery expertise to achieve
+                meaningful, lasting impact.
               </p>
 
               <div
@@ -72,10 +119,13 @@ function About() {
                 Our Expertise
               </h2>
               <p className="text-gray-600 mb-6">
-                Our expertise is properly leveraged to assist clients manage the
-                challenges and opportunities of new technologies in the rapidly
-                changing financial services environments to meet the demands of
-                customers and the market.
+                We combine deep industry knowledge with hands-on delivery
+                experience to help clients navigate the challenges and
+                opportunities of rapidly evolving financial technologies. Our
+                expertise enables financial institutions, regulators, and
+                fintechs to adopt new innovations with confidence, meeting the
+                demands of their customers, strengthening operational
+                efficiency, and staying ahead in a competitive market.
               </p>
 
               <div className="grid md:grid-cols-2 gap-6 mb-8">
@@ -93,10 +143,15 @@ function About() {
                     </h3>
                   </div>
                   <p className="text-gray-600">
-                    Our Managing Principals and Consultants bring their diverse
-                    background of setting strategy and managing technology,
-                    operations, product development, marketing, and business
-                    development to each of our client engagements.
+                    Our Managing Principals and Consultants bring a rich blend
+                    of expertise across strategy, technology, operations,
+                    product development, marketing, business development,
+                    regulatory compliance, and policy formulation. This
+                    diversity of experience allows us to approach every
+                    engagement holistically integrating strategic insight,
+                    technical depth, and regulatory understanding to deliver
+                    solutions that are innovative, compliant, and operationally
+                    sound.
                   </p>
                 </div>
                 <div
@@ -113,9 +168,12 @@ function About() {
                     </h3>
                   </div>
                   <p className="text-gray-600">
-                    We are a team focusing on delivering consultants with the
-                    appropriate right skills, experience, and knowledge to each
-                    project we support.
+                    We are a highly focused team committed to deploying
+                    consultants with the right skills, experience, and domain
+                    knowledge for every project we undertake. By aligning the
+                    specific expertise of our professionals with each client’s
+                    needs, we ensure precision, efficiency, and consistently
+                    high-quality delivery.
                   </p>
                 </div>
               </div>
