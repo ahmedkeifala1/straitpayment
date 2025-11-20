@@ -2,7 +2,6 @@ import { createFileRoute, Link } from "@tanstack/react-router";
 import Icon from "../components/icon";
 import type { IconName } from "lucide-react/dynamic";
 import services from "../assets/data/services.json";
-import members from "../assets/data/members.json";
 import Hero from "../components/hero";
 
 export const Route = createFileRoute("/")({
@@ -153,7 +152,7 @@ function Index() {
             </p>
           </div>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-            {members.slice(0, 4).map((member, idx) => (
+            {[].slice(0, 4).map((member, idx) => (
               <div
                 key={`team_member_${member.name}`}
                 className="bg-white p-6 rounded-xl shadow-md text-center"
