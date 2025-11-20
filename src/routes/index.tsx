@@ -3,6 +3,7 @@ import Icon from "../components/icon";
 import type { IconName } from "lucide-react/dynamic";
 import services from "../assets/data/services.json";
 import Hero from "../components/hero";
+import { members } from "../assets";
 
 export const Route = createFileRoute("/")({
   component: Index,
@@ -152,7 +153,7 @@ function Index() {
             </p>
           </div>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-            {[].slice(0, 4).map((member, idx) => (
+            {members.slice(0, 4).map((member, idx) => (
               <div
                 key={`team_member_${member.name}`}
                 className="bg-white p-6 rounded-xl shadow-md text-center"
