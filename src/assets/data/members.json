@@ -1,1 +1,7 @@
-[] 
+[
+  {
+    "name": "Alice Johnson",
+    "position": "Project Manager",
+    "slug": "alice-johnson"
+  }
+]
