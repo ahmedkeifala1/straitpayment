@@ -11,7 +11,7 @@ function Services() {
     <>
       <Hero
         title="Our Services"
-        subtitle="Comprehensive financial technology solutions tailored to your business needs."
+        subtitle="Strait Payments Advisory provides an integrated suite of consulting, technology, and delivery services designed to help financial institutions build secure, efficient, and future-ready digital payment ecosystems. Our expertise spans the full lifecycle of digital transformation, from strategy and design to implementation, optimization, and capacity building."
       />
 
       <section className="py-20">
@@ -162,13 +162,7 @@ function Services() {
 
               <div className="bg-white p-8 rounded-xl shadow-md">
                 <div className="flex flex-col md:flex-row items-center">
-                  <div className="md:w-1/3 mb-6 md:mb-0">
-                    <img
-                      src="http://static.photos/education/600x400/1"
-                      alt="Training"
-                      className="rounded-lg"
-                    />
-                  </div>
+                  <div className="md:w-1/3 mb-6 md:mb-0"></div>
                   <div className="md:w-2/3 md:pl-8">
                     <h3 className="text-xl font-bold text-black-800 mb-4">
                       Industry-Leading Training
