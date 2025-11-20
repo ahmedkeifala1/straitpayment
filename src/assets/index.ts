@@ -3,7 +3,7 @@ import Members from "./data/members.json";
 type Member = {
   name: string;
   position: string;
-  image: string;
+  image?: string;
   slug: string;
 };
 
