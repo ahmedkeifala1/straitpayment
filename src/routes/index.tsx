@@ -2,8 +2,8 @@ import { createFileRoute, Link } from "@tanstack/react-router";
 import Icon from "../components/icon";
 import type { IconName } from "lucide-react/dynamic";
 import services from "../assets/data/services.json";
-import members from "../assets/data/members.json";
 import Hero from "../components/hero";
+import { members } from "../assets";
 
 export const Route = createFileRoute("/")({
   component: Index,
@@ -160,12 +160,14 @@ function Index() {
                 data-aos="fade-up"
                 data-aos-delay={(idx + 1) * 100}
               >
-                <img
-                  src={member.image}
-                  alt={member.name}
-                  className="w-32 h-32 rounded-full mx-auto mb-4 object-cover"
-                />
-                <h3 className="text-xl font-bold text-gray-800 mb-2">
+                {member.image && (
+                  <img
+                    src={member.image}
+                    alt={member.name}
+                    className="w-32 h-32 rounded-full mx-auto mb-4 object-cover"
+                  />
+                )}
+                <h3 className="text-xl font-black leading-0 text-gray-800 mb-2">
                   {member.name}
                 </h3>
                 <p className="text-gray-900 font-medium mb-4">
@@ -174,7 +176,7 @@ function Index() {
                 <Link
                   to="/team"
                   hash={member.slug}
-                  className="text-sm text-gray-600 hover:text-gray-900 transition duration-300 inline-flex items-center"
+                  className="text-sm text-gray-600 hover:text-gray-900 transition duration-300 inline-flex items-center font-semibold"
                 >
                   View profile <Icon name="arrow-right" className="ml-1" />
                 </Link>
